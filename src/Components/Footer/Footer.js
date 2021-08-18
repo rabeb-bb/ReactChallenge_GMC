@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div style={{padding:"1%", marginTop:"2%", backgroundColor:"rgba(34, 28, 48, 0.35)", color:"white"}}>
+        <div style={{padding:"1%", marginTop:"2%", backgroundColor:"rgba(34, 28, 48, 0.65)", color:"white"}}>
             All rights reserved ©
         </div>
     )
