@@ -1,5 +1,6 @@
 import './App.css';
 import Footer from './Components/Footer/Footer';
+import DialogBox from './Components/MoviesList/Alert';
 import MoviesList from './Components/MoviesList/MoviesList';
 import Navbar from './Components/Navbar/Navbar'
 
@@ -90,6 +91,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
+      <DialogBox/>
       <MoviesList movies={moviesData} />
      <Footer/>
      

@@ -4,7 +4,7 @@ import "./MovieCard.css"
 
 const MovieCard = ({movie, handleName}) => {
     return (
-        <div style={{margin:"2%"}} onClick={()=>handleName(movie.name)}>
+        <div style={{margin:"2%"}} onClick={ () => handleName(movie.name) }>
             <div className="container">
           <div className="cellphone-container">    
             <div className="movie">       
